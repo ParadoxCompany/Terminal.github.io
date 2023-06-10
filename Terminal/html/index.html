@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal Police</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favicon/site.webmanifest">
+    <link rel="mask-icon" href="../favicon" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#111213">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header>
+        <div class="navbar">    
+            <h1><span>\</span>> TERMINAL</h1>
+            <p>by PARADOX</p>
+        </div>
+    </header>
+    <main>
+        <div class="dispatch">
+            <h1>Статус</h1>
+            <div class="up_btn">
+                <button class="btn5" id="sumbit" onclick="audio.play();">Сигнал 100</button>
+                <button class="btn6" id="sumbit" onclick="panic.play();">PANIC</button>
+            </div>
+            <div class="local_btn">
+                <button class="btn1" id="sumbit" onclick="audio.play();">ON</button>
+                <button class="btn2" id="sumbit" onclick="audio.play();">TAF</button>
+                <button class="btn3" id="sumbit" onclick="audio.play();">OPS</button>
+                <button class="btn4" id="sumbit" onclick="audio.play();">OFF</button>
+            </div>
+            <h1 class="ncic">NCIC</h1>
+            <div class="find_info">
+                <input type="text" class="local1" placeholder="ВВЕДИТЕ ДАННЫЕ">
+                <form>
+                    <select name="city" class="local2">
+                      <option value="">NOC</option>
+                      <option value="petersburg">MALE</option>
+                      <option value="samara">FEAMALE</option>
+                      <option value="perm">KIDS</option>
+                      <option value="novosibirsk">BS</option>
+                    </select>
+                  </form>
+            </div>
+            <div class="find_info2">
+                <input type="text" class="local3" placeholder="DD">
+                <input type="text" class="local4" placeholder="MM">
+            </div>
+        </div>
+    </main>
+    <script src="../js/main.js"></script>
+</body>
+</html>
